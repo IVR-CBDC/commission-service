@@ -15,9 +15,11 @@
 docker compose up
 
 
+## После запуска откройте в браузере http://localhost:8000/docs
+
 ## Пример запроса и ответа: 
 
-##Запрос:
+## Запрос:
 {
   "from_country": "RU",
   "to_country": "CN",
@@ -34,3 +36,4 @@ docker compose up
   "fixed_fee": 25.0,
   "total_commission": 1575.0
 }
+
